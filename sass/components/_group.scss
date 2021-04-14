@@ -1,0 +1,27 @@
+.group {
+    background-color: var(--background-color);
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.employee-list {
+    display: flex;
+    justify-content: space-between;
+}
+.employee-list li:last-child {
+    margin-right: 0;
+}
+.employee-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.group h2 {
+    margin-bottom: 50px;
+}
+.employee-list > li {
+    background-color: #ffffff;
+    width: 270px;
+    box-shadow: var(--card-shadow);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}

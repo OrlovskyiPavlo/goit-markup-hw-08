@@ -1,0 +1,30 @@
+.occupation {
+    padding-bottom: 94px;
+}
+
+.occupation-title {
+    margin-bottom: 50px;
+}
+.occupation-list {
+    display: flex;
+    justify-content: space-between;
+}
+.occupation-list {
+    position: relative;
+}
+.occupation-list p {
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}

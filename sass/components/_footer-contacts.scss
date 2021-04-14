@@ -1,0 +1,38 @@
+.mail svg {
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-font-color);
+    margin-right: 10px;
+    transition-property: fill;
+    transition-timing-function: var(--cubik);
+    transition-duration: var(--trans-duration);
+}
+.mail:hover svg {
+    fill: var(--accent-color);
+}
+.mail:focus {
+    outline: none;
+    color: var(--accent-color);
+}
+.mail:focus svg {
+    fill: var(--accent-color);
+}
+.mobile svg {
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-font-color);
+    margin-right: 10px;
+    transition-property: fill;
+    transition-timing-function: var(--cubik);
+    transition-duration: var(--trans-duration);
+}
+.mobile:hover svg {
+    fill: var(--accent-color);
+}
+.mobile:focus {
+    outline: none;
+    color: var(--accent-color);
+}
+.mobile:focus svg {
+    fill: var(--accent-color);
+}

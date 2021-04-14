@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--hero-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo.logo-footer {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.address {
+    font-style: normal;
+    color: var(--second-accent-color);
+}
+.address p {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+.footer-contacts li:not(last-child) {
+    margin-bottom: 9px;
+}
+.contacts a {
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--secondary-font-color);
+}

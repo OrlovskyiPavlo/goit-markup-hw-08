@@ -1,0 +1,38 @@
+.advantages {
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.advantages ul {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages li:last-child {
+    margin-right: 0;
+}
+.advantages li {
+    width: 270px;
+}
+.advantages h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+}
+.advantages,
+.group p {
+    line-height: 1.7;
+    color: var(--secondary-font-color);
+}
+.svg-advantages {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
